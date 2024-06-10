@@ -1,0 +1,12 @@
+#!/bin/bash                                                                                                         
+#SBATCH -A IscrC_AIWAF                                                                                              
+#SBATCH -p boost_usr_prod                                                                                           
+#SBATCH --time 24:00:00     # format: HH:MM:SS                                                                      
+#SBATCH -N 1                # 1 node                                                                                
+#SBATCH --ntasks-per-node=4 # 4 tasks out of 32                                                                     
+#SBATCH --gres=gpu:2        # 4 gpus per node out of 4                                                              
+#SBATCH --mem=494000        # memory per node out of 494000MB                                                       
+#SBATCH --job-name=trainingA
+
+#python3 ./evaluation.py                                                                                            
+python3 ./UNET_leonardo_ws_daily_A.py
