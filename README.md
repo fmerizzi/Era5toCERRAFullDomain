@@ -14,4 +14,5 @@ A repository containing the code for downscaling from ERA5 to CERRA with multipl
 - full_spatial_unet.py, architectural definition of the U-net for full domain with spatial attention
 - UNET_tas_3h_full_sizeE.py, training + testing file for 3h temperature
 - UNET_tas_daily_full_sizeD.py, training + testing file for daily temperature
+- training, slurm file scheduling the job
   
