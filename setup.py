@@ -1,4 +1,4 @@
-# computed on the whole dataset from 2010-2019 
+# computed on the whole dataset from 2010-2019
 max_cerra_tas = 317.40024
 min_cerra_tas =  204.834
 max_era5_tas  =  317.08838
@@ -8,6 +8,11 @@ max_cerra_ws =  44.663539
 min_cerra_ws =  0.0727703
 max_era5_ws  =  33.146915
 min_era5_ws  =  0.0916735
+
+max_cerra_ws_3h =  54.85314178466797
+min_cerra_ws_3h =  5.6239418881887104e-06
+max_era5_ws_3h  =  107.893798828125
+min_era5_ws_3h  =  0.010310349054634571
 
 max_cerra_pr =  422.844726
 min_cerra_pr =  0
@@ -19,9 +24,9 @@ min_cerra_tas_3h =  209.07814
 max_era5_tas_3h  =  323.43365
 min_era5_tas_3h  =  214.25631
 
-max_cerra_pr_3h = 189.95703
+max_cerra_pr_3h = 193.199218
 min_cerra_pr_3h =  0
-max_era5_pr_3h  =  863.21893
+max_era5_pr_3h  =  864.877807
 min_era5_pr_3h  =  0
 
 max_cerra_tas_cut256 = 306.69617
@@ -35,7 +40,7 @@ max_era5_pr_cut256  =  0.0015520632
 min_era5_pr_cut256  =  0
 
 #num_epochs = 200  # train for at least 50 epochs for good results
-image_size = 256
+image_size = 1072
 num_frames = 4
 plot_diffusion_steps = 20
 
